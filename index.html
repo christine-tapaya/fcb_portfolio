@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- favicon -->
+
+    <link rel="icon" type="image/png" href="./favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+    <link rel="manifest" href="./site.webmanifest" />
+
+    <title>Christine - UI/UX Designer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body class="bg-[#FFF8F8] text-[#4A282D] antialiased min-h-screen">
+    <!-- NAVBAR -->
+    <header class="sticky top-0 z-50 bg-[#FFF5F6]/95 backdrop-blur-md border-b border-[#F4D0D5]">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex flex-wrap items-center justify-between gap-4">
+        <!-- EDIT NAVBAR_BRAND -->
+        <a href="#" class="text-xl font-bold tracking-tight text-[#9E2A4B] hover:text-[#7A1D36] transition-colors">UI/UX Designer</a>
+        <!-- EDIT NAVBAR_LINKS -->
+        <nav class="flex items-center gap-5 sm:gap-7 text-sm font-medium text-[#7D454E]">
+          <a href="#about" class="hover:text-[#9E2A4B] transition-colors">About</a>
+          <a href="#projects" class="hover:text-[#9E2A4B] transition-colors">Projects</a>
+          <a href="#skills" class="hover:text-[#9E2A4B] transition-colors">Skills/Tools</a>
+          <a href="#contact" class="hover:text-[#9E2A4B] transition-colors">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <main class="max-w-5xl mx-auto px-4 sm:px-6 py-10 sm:py-16 space-y-16 sm:space-y-24">
+      <!-- HERO SECTION -->
+      <section class="flex flex-col md:flex-row items-center gap-8 md:gap-14 pt-4 sm:pt-8">
+        <div class="w-48 h-48 sm:w-64 sm:h-64 rounded-3xl overflow-hidden shadow-lg border-2 border-[#F4B8C1] flex-shrink-0 bg-white">
+          <!-- EDIT PROFILE_IMAGE -->
+          <img src="./profile2.jpg" alt="Profile portrait" class="w-full h-full object-cover">
+        </div>
+        <div class="flex-1 text-center md:text-left space-y-4">
+          <!-- EDIT YOUR_NAME -->
+          <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-[#3B151E]">Christine Grace Tapaya</h1>
+          <!-- EDIT YOUR_JOB_TITLE -->
+          <h2 class="text-xl sm:text-2xl font-semibold text-[#B83B5E]">UI/UX Designer</h2>
+          <!-- EDIT SHORT_INTRODUCTION -->
+          <p class="text-base sm:text-lg text-[#6E4B52] leading-relaxed max-w-xl"> Explore my UI/UX design portfolio featuring user-centered design, wireframing, prototyping, and responsive web design for intuitive digital experiences. </p>
+          <div class="flex flex-wrap items-center justify-center md:justify-start gap-4 pt-2">
+            <!-- EDIT CTA_PROJECTS -->
+            <a href="#projects" class="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-[#C84B68] text-white font-medium text-sm hover:bg-[#A83852] transition-colors shadow-sm"> View My Projects </a>
+            <!-- EDIT CTA_CONTACT -->
+            <a href="#contact" class="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-[#FDE8EC] text-[#9E2A4B] border border-[#F4BAC3] font-medium text-sm hover:bg-[#F9D2DA] transition-colors"> Contact Me </a>
+          </div>
+        </div>
+      </section>
+      <!-- ABOUT SECTION -->
+      <section id="about" class="space-y-6 scroll-mt-20">
+        <h2 class="text-2xl sm:text-3xl font-bold text-center text-[#3B151E] tracking-tight">About</h2>
+        <div class="bg-white/80 border border-[#F3CBD2] rounded-3xl p-6 sm:p-10 shadow-sm">
+          <!-- EDIT ABOUT_YOU -->
+          <p class="text-base sm:text-lg text-[#633F46] leading-relaxed"> I am a UI/UX Designer passionate about creating intuitive, visually engaging, and user-centered digital experiences. I specialize in user interface design, user experience design, wireframing, prototyping, and responsive web design to develop digital products that balance functionality with aesthetics. My approach combines user research, usability principles, and thoughtful design decisions to make websites and applications easier to navigate and more enjoyable to use. I aim to help businesses strengthen their digital presence, improve user satisfaction, and turn ideas into meaningful design solutions. </p>
+        </div>
+      </section>
+      <!-- PROJECTS SECTION -->
+      <section id="projects" class="space-y-8 scroll-mt-20">
+        <h2 class="text-2xl sm:text-3xl font-bold text-center text-[#3B151E] tracking-tight">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
+          <!-- PROJECT CARD 1 -->
+          <div class="bg-white rounded-3xl border border-[#F3CBD2] overflow-hidden shadow-sm flex flex-col">
+            <div class="w-full h-48 sm:h-52 overflow-hidden bg-[#FCECEE]">
+              <!-- EDIT PROJECT_IMAGE_1 -->
+              <img src="https://img.magnific.com/free-vector/online-grocery-store-app-template_23-2150118363.jpg?semt=ais_hybrid&w=740&q=80" alt="Project preview" class="w-full h-full object-cover">
+            </div>
+            <div class="p-5 sm:p-6 flex flex-col flex-grow justify-between gap-4">
+              <div class="space-y-2">
+                <!-- EDIT PROJECT_TITLE_1 -->
+                <h3 class="text-xl font-bold text-[#3B151E]">E-Commerce Website UI/UX Redesign</h3>
+                <!-- EDIT PROJECT_DESCRIPTION_1 -->
+                <p class="text-sm text-[#734E55] leading-relaxed">A proposed UI/UX design project focused on improving the online shopping experience through intuitive navigation, user-friendly product pages, and a streamlined checkout process. Using wireframing, prototyping, and usability testing, this project aims to enhance website accessibility and help users complete purchases more easily.</p>
+              </div>
+              <!-- EDIT PROJECT_LINK_1 -->
+              <a href="#" class="inline-flex items-center justify-center px-5 py-2.5 rounded-xl bg-[#C84B68] text-white text-sm font-medium hover:bg-[#A83852] transition-colors self-start"> Project Link </a>
+            </div>
+          </div>
+          <!-- PROJECT CARD 2 -->
+          <div class="bg-white rounded-3xl border border-[#F3CBD2] overflow-hidden shadow-sm flex flex-col">
+            <div class="w-full h-48 sm:h-52 overflow-hidden bg-[#FCECEE]">
+              <!-- EDIT PROJECT_IMAGE_2 -->
+              <img src="https://cdn.dribbble.com/userupload/44150421/file/original-05c0bff236ad37230f3f164bfa9cd24e.png" alt="Project preview" class="w-full h-full object-cover">
+            </div>
+            <div class="p-5 sm:p-6 flex flex-col flex-grow justify-between gap-4">
+              <div class="space-y-2">
+                <!-- EDIT PROJECT_TITLE_2 -->
+                <h3 class="text-xl font-bold text-[#3B151E]">Mobile App for Student Productivity</h3>
+                <!-- EDIT PROJECT_DESCRIPTION_2 -->
+                <p class="text-sm text-[#734E55] leading-relaxed">A proposed mobile app design that helps university students manage academic tasks, track deadlines, and organize study schedules through a clean, responsive interface. This project applies user-centered design, information architecture, and interactive prototyping to create a practical digital tool for student productivity.</p>
+              </div>
+              <!-- EDIT PROJECT_LINK_2 -->
+              <a href="#" class="inline-flex items-center justify-center px-5 py-2.5 rounded-xl bg-[#C84B68] text-white text-sm font-medium hover:bg-[#A83852] transition-colors self-start"> Project Link </a>
+            </div>
+          </div>
+          <!-- PROJECT CARD 3 -->
+          <div class="bg-white rounded-3xl border border-[#F3CBD2] overflow-hidden shadow-sm flex flex-col">
+            <div class="w-full h-48 sm:h-52 overflow-hidden bg-[#FCECEE]">
+              <!-- EDIT PROJECT_IMAGE_3 -->
+              <img src="https://cdn.dribbble.com/userupload/47069857/file/c8890f43029b4940b628c5d402f2cd52.png?resize=752x&vertical=center" alt="Project preview" class="w-full h-full object-cover">
+            </div>
+            <div class="p-5 sm:p-6 flex flex-col flex-grow justify-between gap-4">
+              <div class="space-y-2">
+                <!-- EDIT PROJECT_TITLE_3 -->
+                <h3 class="text-xl font-bold text-[#3B151E]">Interactive Multimedia Learning Platform</h3>
+                <!-- EDIT PROJECT_DESCRIPTION_3 -->
+                <p class="text-sm text-[#734E55] leading-relaxed">A proposed web-based learning platform that combines visual storytelling, interactive content, and accessible interface design to make online education more engaging. Drawing on multimedia design principles and UI/UX best practices, this project aims to improve content navigation and create a more inclusive digital learning experience.</p>
+              </div>
+              <!-- EDIT PROJECT_LINK_3 -->
+              <a href="#" class="inline-flex items-center justify-center px-5 py-2.5 rounded-xl bg-[#C84B68] text-white text-sm font-medium hover:bg-[#A83852] transition-colors self-start"> Project Link </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SKILLS & TOOLS SECTION -->
+      <section id="skills" class="space-y-8 scroll-mt-20">
+        <h2 class="text-2xl sm:text-3xl font-bold text-center text-[#3B151E] tracking-tight">Skills &amp; Tools</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+          <!-- SKILLS CARD -->
+          <div class="bg-white rounded-3xl border border-[#F3CBD2] p-6 sm:p-8 shadow-sm space-y-5">
+            <!-- EDIT SKILLS_HEADING -->
+            <h3 class="text-xl font-bold text-[#9E2A4B] pb-3 border-b border-[#FCECEE]">Skills</h3>
+            <ul class="space-y-3 text-sm sm:text-base text-[#6E4B52]">
+              <!-- EDIT SKILL_ITEM_1 -->
+              <li class="flex items-center gap-2">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#C84B68]"></span> User Experience (UX) Research
+              </li>
+              <!-- EDIT SKILL_ITEM_2 -->
+              <li class="flex items-center gap-2">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#C84B68]"></span> User Interface (UI) Design
+              </li>
+              <!-- EDIT SKILL_ITEM_3 -->
+              <li class="flex items-center gap-2">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#C84B68]"></span> Wireframing and Prototyping
+              </li>
+            </ul>
+          </div>
+          <!-- TOOLS & TECHNOLOGIES CARD -->
+          <div class="bg-white rounded-3xl border border-[#F3CBD2] p-6 sm:p-8 shadow-sm space-y-5">
+            <!-- EDIT TOOLS_HEADING -->
+            <h3 class="text-xl font-bold text-[#9E2A4B] pb-3 border-b border-[#FCECEE]">Tools &amp; Technologies</h3>
+            <ul class="space-y-3 text-sm sm:text-base text-[#6E4B52]">
+              <!-- EDIT TOOL_ITEM_1 -->
+              <li class="flex items-center gap-2">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#C84B68]"></span> Figma
+              </li>
+              <!-- EDIT TOOL_ITEM_2 -->
+              <li class="flex items-center gap-2">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#C84B68]"></span> FigJam
+              </li>
+              <!-- EDIT TOOL_ITEM_3 -->
+              <li class="flex items-center gap-2">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#C84B68]"></span> Canva
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- CONTACT SECTION -->
+      <section id="contact" class="space-y-6 scroll-mt-20">
+        <h2 class="text-2xl sm:text-3xl font-bold text-center text-[#3B151E] tracking-tight">Contact</h2>
+        <div class="bg-white/80 border border-[#F3CBD2] rounded-3xl p-8 sm:p-12 text-center shadow-sm space-y-4">
+          <!-- EDIT YOUR_EMAIL -->
+          <p class="text-base sm:text-lg text-[#6E4B52]">
+            <span class="font-medium text-[#9E2A4B]">Email:</span> tapaya.christinegrace.18@gmail.com
+          </p>
+          <!-- EDIT YOUR_CONTACT_INFORMATION -->
+          <p class="text-base sm:text-lg text-[#6E4B52]">
+            <span class="font-medium text-[#9E2A4B]">Contact:</span> +639000000000
+          </p>
+          <!-- EDIT YOUR_SOCIAL_LINK -->
+          <p class="text-base sm:text-lg text-[#6E4B52]">
+            <span class="font-medium text-[#9E2A4B]">LinkedIn:</span>
+            <a href="#" class="text-[#C84B68] underline font-medium hover:text-[#9E2A4B] transition-colors">https://www.linkedin.com/in/christine-grace-tapaya-b3a515245/</a>
+          </p>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="mt-20 border-t border-[#F4D0D5] py-8 text-center text-xs sm:text-sm text-[#8A5B64] bg-[#FFF5F6]">
+      <div class="max-w-5xl mx-auto px-4">
+        <!-- EDIT COPYRIGHT -->
+        <p>&copy; 2026 Christine Grace Tapaya. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
